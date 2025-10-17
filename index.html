@@ -7,7 +7,7 @@ Requirements
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect
-[ no ] Feature 2 - Change the Cursor
+[ yes ] Feature 2 - Change the Cursor
 [ no ] Feature 3 - Make a Background Color Semi-Transparent
 [ no ] Feature 4 - Include at Flip Card
 [ no ] Feature 5 - Include at least two Internal links
@@ -21,40 +21,52 @@ Select ONE Additional Feature to Add
   <meta charset="utf-8">
   <style>
 
+ table, th, td {
+            border: 1px solid;
+          }
+
     body{
     
-     background-image: url("?");
+     background-image: url("https://render.fineartamerica.com/images/rendered/default/poster/6/8/break/images/artworkimages/medium/3/top-40-classic-rock-albums-of-all-time-max-huber.jpg");
      background-size: cover;
      background-repeat: no-repeat;
      background-attachment: fixed;
+     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎸</text></svg>") 16 0,auto; /*!emojicursor.app*/");
 
-     .alltext{
-        background-color:darkblue
-        color:aliceblue
-      }
     }
-    
+         .alltext{
+        background-color:rgb(194, 210, 255);
+        color:rgb(160, 52, 52);
+        border: 3px solid;
+        width: fit-content;
+        border-radius: 18px;
+        padding:8px;
+
+      }
   </style>
 </head>
 
 <body>
 
-  <h1 class="alltext"> Gillian's Recipe Book</h1>
+  <h1 class="alltext"> Gillian's Recipe Book—How To Make a Song! (with guitar)</h1>
 
-  <h2>Contents:</h2> 
+  <h2 class="alltext">Contents:</h2> 
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
+  <ol class="alltext">
+    <li><a href="#guitar-chords">Guitar Chords</a></li>
+    <li><a href="#vocal-melody">Vocal Melody</a></li>
+    <li><a href="#lyrics">Lyrics</a></li>
+    <li><a href="other-instruments">Other Instruments</a></li>
   </ol>
 
-  <h2 id="?">Recipe #1</h2>
+  <h2 class="alltext" id="guitar-chords">Guitar Chords</h2>
 
-  <ul>
+  <ul class="alltext">
     <li>Time: _</li>
     <li>Serves: _</li>
   </ul>
 
-  <table>
+  <table class="alltext">
     <thead>
       <tr>
         <th>Ingredients</th>
@@ -69,10 +81,84 @@ Select ONE Additional Feature to Add
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Do something.
+  <p class="alltext"><strong>Step 1:</strong> Do something.
   </p>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+  <h2 class="alltext" id="vocal-melody">Vocal Melody</h2>
+  <ul class="alltext">
+    <li>Time: _</li>
+    <li>Serves: _</li>
+  </ul>
+
+  <table class="alltext">
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ingredient #1</td>
+        <td>Quantity #1</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="alltext"><strong>Step 1:</strong> Do something.
+  </p>
+
+  <h2 class="alltext" id="lyrics">Lyrics</h2>
+
+  <ul class="alltext">
+    <li>Time: _</li>
+    <li>Serves: _</li>
+  </ul>
+
+  <table class="alltext">
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ingredient #1</td>
+        <td>Quantity #1</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="alltext"><strong>Step 1:</strong> Do something.
+  </p>
+
+  <h2 class="alltext" id="other-instruments">Other Instruments</h2>
+
+  <ul class="alltext">
+    <li>Time: _</li>
+    <li>Serves: _</li>
+  </ul>
+
+  <table class="alltext">
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ingredient #1</td>
+        <td>Quantity #1</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="alltext"><strong>Step 1:</strong> Do something.
+  </p>
+
+  <p class="alltext"><em>Source: <a href="?">Some recipes websites</a></em></p>
 
 </body>
 
